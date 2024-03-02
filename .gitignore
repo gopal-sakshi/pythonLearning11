@@ -1,0 +1,4 @@
+env24/
+
+################### what should be in gitignore for python projects
+__pycache__/

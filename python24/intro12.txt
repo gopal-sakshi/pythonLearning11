@@ -1,0 +1,16 @@
+pip install numpy                   // WORKS... but use, below commands
+
+python3 -m pip install numpy
+python3 -m pip install pytube
+
+Defaulting to user installation because normal site-packages is not writeable
+installed @     /home/gsakshi/.local/lib/python3.10/site-packages 
+
+====================================================
+
+python3 -m pip install tkinter          // WRONG
+    ERROR: Could not find a version that satisfies the requirement tkinter (from versions: none)
+    ERROR: No matching distribution found for tkinter
+
+sudo apt-get install python3-tk         // RIGHT
+====================================================
