@@ -1,0 +1,12 @@
+representing text documents as vectors
+distance between vectors <===> relevance between documents
+
+free open source software
+- apache lucene
+- Open Search & Solr
+- Gensim
+- Weka
+- Word2vec
+
+
+https://medium.com/nlplanet/text-analysis-topic-modelling-with-spacy-gensim-4cd92ef06e06
