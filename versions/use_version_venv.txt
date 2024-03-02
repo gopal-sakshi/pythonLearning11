@@ -1,0 +1,52 @@
+virtualenv --python="/usr/bin/python2.6" "/path/to/new/virtualenv/"
+
+(OR)
+
+python3 -m venv "my_env_name"
+python3.6 -m venv "my_env_name"
+
+=======================================================
+
+Point of "venv"
+- to have a version of python other than the mainOne in the system
+- but above solutions of using venv ====> all other versions of python be installed locally in our system
+- to create a sandboxed environment for Python
+
+Ideal way
+- create venv, then install whatever version of python in that venv
+- not create venv from locally installed Python
+- but alas... it isnt that way...
+
+https://stackoverflow.com/questions/1534210/use-different-python-version-with-virtualenv
+
+=======================================================
+
+manage multiple versions
+- venv
+    only one version of python exists in ubuntu (Python 3.3)
+    but project23 ---> uses spacy 2.3; project24 ----> uses spacy 2.4
+    thats why we create different "venv" for each project
+- pyenv
+    we need to work with multiple versions of python
+    to install pyenv
+        curl https://pyenv.run | bash
+        
+        export PYENV_ROOT="$HOME/.pyenv"
+        [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+        #### eval "$(pyenv init -)"             ### add this in .bashrc file _________
+
+    pyenv local
+    pyenv install 3.6
+        installed @ /home/krishna/.pyenv/versions/3.6.15
+======================================================================================================
+
+- open any python application in vscode
+- see from Dockerfile (or) somewhere ---> what version of python is needed
+- use pyenv and install that version in
+    /home/krishna/.pyenv/versions/3.6.15
+- Ctrl + Shift + P ===> python (create environment)
+- select the "requirements.txt" for list of packages to install
+- a .venv folder gets created
+    to activate that folder ===> "source .venv/bin/activate"
+    check python version ====> "python3 --version"  ---> it should print 3.6.15
+======================================================================================================

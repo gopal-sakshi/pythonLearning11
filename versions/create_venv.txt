@@ -1,0 +1,8 @@
+- open any python application in vscode
+- see from Dockerfile (or) somewhere ---> what version of python is needed
+- use pyenv and install that version in
+    /home/krishna/.pyenv/versions/3.6.15
+- Ctrl + Shift + P ===> python (create environment)
+- select the "requirements.txt" for list of packages to install
+- a .venv folder gets created
+    to activate that folder ===> "source .venv/bin/activate"
