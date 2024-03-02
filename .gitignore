@@ -1,4 +1,8 @@
 env24/
-
+*.mp4
+.venv
 ################### what should be in gitignore for python projects
 __pycache__/
+
+## temporarily added Django project to gitignore, remove it later
+python28/

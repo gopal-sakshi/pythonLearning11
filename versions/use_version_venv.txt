@@ -38,7 +38,21 @@ manage multiple versions
     pyenv local
     pyenv install 3.6
         installed @ /home/krishna/.pyenv/versions/3.6.15
+
+    pyenv versions ----------> the current active python version in that folder/path
 ======================================================================================================
+
+Why pyenv
+- the python in the system belongs to Ubuntu
+- "which python3" -----> /usr/bin/python -----> it belongs to all users
+    /home/gsakshi
+    /home/krishna
+    /home/admin
+
+sudo pip install. 
+- installing the Python package globally
+- is a problem if another user wants to install a slightly older version of the package.
+- package managers (apt, yum, brew) ---> install packages into "global system space" instead of "user space"
 
 - open any python application in vscode
 - see from Dockerfile (or) somewhere ---> what version of python is needed
