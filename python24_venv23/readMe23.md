@@ -22,7 +22,12 @@ all these files are same as those in python24 folder
     .venv folder will be created...
 
     "source .venv/bin/activate" _____________ "deactivate"
-    python3 python24_venv23/numpy12.py
-    python3 python24_venv23/randomNum23.py
+    (.venv) krishna~$ python3 python24_venv23/numpy12.py
+    (.venv) krishna~$ python3 python24_venv23/randomNum23.py
 
+    (OR) notice there is no (.venv) --> means bash shell isnt in venv
+    krishna~$ .venv/bin/python3 python24_venv23/numpy12.py
+    .venv/bin/python3 ====> is the path where venv is installed
 ----------------------------------------------------------------------------
+
+https://stackoverflow.com/questions/70515194/syntaxerror-future-feature-annotations-is-not-defined

@@ -6,3 +6,5 @@ __pycache__/
 
 ## temporarily added Django project to gitignore, remove it later
 python28/
+
+python26/
