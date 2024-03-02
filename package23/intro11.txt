@@ -1,0 +1,7 @@
+regular pacakge
+- will have "init.py" file
+- for most usecases, regular developers, this WILL DO
+
+namespace pacakge
+- there will NO init.py file
+- not needed for regular users

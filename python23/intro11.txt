@@ -1,0 +1,33 @@
+python interpreter
+- just enter python3, you will enter interactive mode
+
+interactive mode, the last printed expression is assigned to the variable _
+- open shell and enter these commands one after another
+- python3
+- 2+4
+- print(_)          // prints 6
+
+========================================
+
+word23 = 'learning Python'
+word23[3]
+word23[0:2]           // slicing
+word23[:2]              // slicing
+
+
+Python strings cannot be changed — they are immutable
+word23[0] = 'J'               // throws ERROR
+
+
+len(word23)                 // length
+========================================
+squares = [1, 4, 9, 16, 25]
+Unlike strings, which are immutable, lists are a mutable type
+
+squares[2] = 9.00           // allowed
+squares.append(36)
+==================================================
+
+
+formatted string literal or f-string is a string literal that is prefixed with f
+hese strings may contain replacement fields, which are expressions delimited by curly braces {}
