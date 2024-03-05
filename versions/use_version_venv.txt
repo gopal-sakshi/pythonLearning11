@@ -1,10 +1,33 @@
 virtualenv --python="/usr/bin/python2.6" "/path/to/new/virtualenv/"
 
+    virtualenv --python="/home/krishna/.pyenv/versions/3.7.17/bin/python3" .
+        created virtual environment CPython3.7.17.final.0-64 in 276ms
+        creator CPython3Posix(dest=/home/krishna/Desktop/kpt23/nlu23/cbp-lang-api, clear=False, no_vcs_ignore=False, global=False)
+        seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/krishna/.local/share/virtualenv)
+        added seed packages: pip==22.0.2, setuptools==59.6.0, wheel==0.37.1
+        activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+    But where is that virtual environment created ???????????
+
+
+    virtualenv --python="/home/krishna/.pyenv/versions/3.7.17/bin/python3.7" /home/krishna/Desktop/kpt23/nlu23/cbp-lang-api
+        created virtual environment CPython3.7.17.final.0-64 in 249ms
+        creator CPython3Posix(dest=/home/krishna/Desktop/kpt23/nlu23/cbp-lang-api, clear=False, no_vcs_ignore=False, global=False)
+        seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/krishna/.local/share/virtualenv)
+        added seed packages: pip==22.0.2, setuptools==59.6.0, wheel==0.37.1
+        activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+
+    again no idea... where virtual environment got created ??????
+    it seems virtualenv ---> this command creates these 3 ===> lib, bin folders & pyvenv.cfg file
+
 (OR)
 
 python3 -m venv "my_env_name"
 python3.6 -m venv "my_env_name"
 
+    /home/krishna/.pyenv/versions/3.7.17/bin/python3.7 -m venv .venv
+    this created .venv folder... 
+    activate the virtual env ===> source .venv/bin/activate
+    install pacakges =====> python3 -m pip install -r requirements.txt
 =======================================================
 
 Point of "venv"

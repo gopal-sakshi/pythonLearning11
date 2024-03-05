@@ -1,0 +1,9 @@
+/usr/bin/python3 -c "import bz2; print(bz2.__doc__)"
+- this is working...
+- meaning, bz2 module is in /usr/bin/python3
+
+Python installed in system
+- /usr/bin/python3
+- /bin/python3
+- any virtual environments created
+- ~/.pyenv/versions/3.6.15/bin/python

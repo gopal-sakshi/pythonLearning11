@@ -5,6 +5,7 @@ env24/
 __pycache__/
 
 ## temporarily added Django project to gitignore, remove it later
-python28/
+# python28/
 
-python26/
+### this uses jupiter... use it later
+# python26/   

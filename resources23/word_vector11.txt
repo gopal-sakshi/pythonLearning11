@@ -1,0 +1,13 @@
+word vector
+- mathematically represent the meaning of a word
+- is a shallow 2-layer neural network
+
+EXPLANATION "word vector for good"
+- if the word "good" always shows up next to the word "friend" 
+- then part of the <word vector for "good"> will reflect that connection. 
+- A given word will have a vast number of such values, usually in the hundreds and sometimes in the thousands.
+
+==================================================
+
+
+https://www.tensorflow.org/text/tutorials/word2vec

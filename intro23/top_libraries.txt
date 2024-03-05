@@ -1,0 +1,13 @@
+List of Top Libraries in Python
+1. Pandas
+2. NumPy
+3. Keras
+4. TensorFlow
+5. Scikit Learn
+6. Eli5
+7. SciPy
+8. PyTorch
+9. LightGBM
+10. Theano
+
+-------------------------------------------------

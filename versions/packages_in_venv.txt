@@ -1,0 +1,18 @@
+once you created a venv
+activate that venv
+
+source .venv/bin/activate
+pip list    =========> lists all python packages in that venv
+    Package             Version
+    ------------------- --------
+    aiofiles            0.8.0
+    blis                0.4.1
+    catalogue           1.0.2
+    certifi             2024.2.2
+    ...                 ....
+    wasabi              0.10.1
+    websockets          6.0
+    wrapt               1.16.0
+    zipp                3.6.0
+python3 --version ===> lists python version 
+
