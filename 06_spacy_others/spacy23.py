@@ -2,8 +2,15 @@ import spacy
 
 nlp = spacy.load("en_core_web_sm")
 doc = nlp("Apple is looking at buying U.K. startup for $1 billion")
-for token in doc:
-    print(f"text23 ==> {token.text}, pos23 ==> {token.pos_}, dep23 ==> {token.dep_}")
+
+# for token in doc:
+#     # print(f"text23 ==> {token.text}, pos23 ==> {token.pos_}, dep23 ==> {token.dep_}")
+#     print("text23 ==> ",token.text, "pos23 ==> ", token.pos_, "dep23 ==> ", token.dep_)
+
+print(doc.ents)
+
+# for ent in doc.ents:
+#     print(ent.text, 'start & end Char ====>', ent.start_char,'__',ent.end_char, "label23 ==> ", ent.label_)
 
 
 '''     HOW TO RUN

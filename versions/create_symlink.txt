@@ -1,0 +1,25 @@
+typing python3 is difficult evertime
+
+typing node is easy... n, o, d, e
+but typing python3 is not so much
+=========================================================
+--- so creating symlink... 
+ln -s .venv/bin/python3 .venv/bin/py
+-- navigate to the folder and see "ls -alh"
+
+-- to remove the symlink
+rm .venv/bin/py
+=========================================================
+
+create alias
+- echo "alias cls='clear'" >> ~/.bash_aliases && source ~/.bash_aliases
+- echo "alias py='python3'" >> ~/.bash_aliases && source ~/.bash_aliases
+---- but alias only works if I run this outside venv
+=========================================================
+
+individually either of them wont work alone
+with symlink & alias ---> together gets the job done
+
+FINALLLLLLLLLLL
+- it seems, symlink was not at all necessary
+- just alias py = python3 was enough
