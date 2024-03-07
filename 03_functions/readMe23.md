@@ -1,3 +1,6 @@
+--- IGNORE this..... this is when i wanted to run python24 folder alone in a venv
+--- now dont bother with it
+
 all these files are same as those in python24 folder
 - just we are using venv
 
