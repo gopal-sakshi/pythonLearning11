@@ -9,7 +9,7 @@ print(np.linalg.solve(A,B))             # other is slow... dont know which one
 print("----------------------------------------------------")
 #######################################################
 
-C = np.array([[1,2],[3,4]])
+C = np.array([[1,2],[3,4]])             ### determinant ==> axd - bxc       (1x4 - 2x3)
 print('determinant of matrix A ==> ', linalg.det(A))
 
 '''

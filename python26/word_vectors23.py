@@ -3,7 +3,7 @@ import spacy
 
 # sklearn is deprecated... use scikit-learn
 from sklearn.decomposition import PCA
-nlp = spacy.load("en")
+nlp = spacy.load("en_core_web_sm")
 animals = "dog cat hamster lion tiger elephant cheetah monkey gorilla antelope rabbit mouse rat zoo home pet fluffy wild domesticated"
 animal_tokens = nlp(animals)
 animal_vectors = np.vstack([word.vector for word in animal_tokens if word.has_vector])

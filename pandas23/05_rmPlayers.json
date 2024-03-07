@@ -1,0 +1,10 @@
+{
+    "clubName": "RM",
+    "stadium": "Bernabeu",
+    "manager": "Ancelotti",
+    "players": [
+        { "name": "Modric", "position": "Midfield" },
+        { "name": "Ramos", "position": "Defender" },
+        { "name": "Benzema", "position": "Striker" }
+    ]
+}

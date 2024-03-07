@@ -3,12 +3,32 @@ For Unix-based systems,
 - This means optional components will only build if the relevant system headers are available
 
 (A) install all necessary packages/libraries in ubuntu
-
+    
+    --- not sure which of these two I need ...
+    
     sudo apt-get install build-essential gdb lcov pkg-config \
         libbz2-dev libffi-dev libgdbm-dev libgdbm-compat-dev liblzma-dev \
         libncurses5-dev libreadline6-dev libsqlite3-dev libssl-dev \
         lzma lzma-dev tk-dev uuid-dev zlib1g-dev
 
+    sudo apt-get install \
+        curl \
+        gcc \
+        libbz2-dev \
+        libev-dev \
+        libffi-dev \
+        libgdbm-dev \
+        liblzma-dev \
+        libncurses-dev \
+        libreadline-dev \
+        libsqlite3-dev \
+        libssl-dev \
+        make \
+        tk-dev \
+        wget \
+        zlib1g-dev
+
+https://docs.posit.co/resources/install-python-source/
 
 (B) then, install python from source
     ./configure

@@ -2,6 +2,7 @@ once you created a venv
 activate that venv
 
 source .venv/bin/activate
+python3 -m pip install -r requirements.txt          // install all required packages in that venv
 pip list    =========> lists all python packages in that venv
     Package             Version
     ------------------- --------
@@ -15,4 +16,15 @@ pip list    =========> lists all python packages in that venv
     wrapt               1.16.0
     zipp                3.6.0
 python3 --version ===> lists python version 
+
+
+spacy uses "en_core_web_sm"
+- but how to add spacy model in requirements.txt
+
+(A) either add it in requirements.txt (OR)
+    https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz
+
+
+(B) manually install spacy model
+    python -m spacy download en_core_web_sm
 
