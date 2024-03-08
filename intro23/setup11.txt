@@ -3,6 +3,7 @@ For Unix-based systems,
 - This means optional components will only build if the relevant system headers are available
 
 (A) install all necessary packages/libraries in ubuntu
+    --- errors thrown if these packages arent installed... setup11_necessaryPackages.txt
     
     --- not sure which of these two I need ...
     
