@@ -14,13 +14,21 @@ app = Sanic("app23")
 @app.post("/post23")
 async def post23(request):
     print("payload ====> ", request.json)
+
+    # request.json (only for json payload) for other types --> 
+    #     request.body (raw); 
+    #     request.form (form data);
+    #     request.files (uploaded data);
+
+    # request.ctx ====> playground to store whatever info we need about the request
+    # app.ctx =======> info shared across all requests
     print("manager23 ====> ", request.json['manager'])
     return json({"info": "edo oka response"})
 
 @app.get("/get23")
 async def get233(request):
-    print("params ===> ", {request.args})
-    print("query params ===> ", {request.query_args})
+    print("params ===> ", request.args)
+    print("query params ===> ", request.query_args)
     return json({ "info": "idi query params kosam" })
 
 @app.get("/get24/<param1>/page/<param2>")
@@ -52,3 +60,8 @@ async def test(request):
 if __name__ == '__main__':
     # app.run(host="10.0.54.240", port=28080)
     app.run(port=28080)
+
+'''
+    every time sanic server is closed, it prints goodbye message
+    this is the file path ---> /lib/python3.12/site-packages/sanic/server/goodbye.py
+'''
