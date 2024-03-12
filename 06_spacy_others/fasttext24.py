@@ -32,7 +32,7 @@ print(test23)
 
 
 ############# use cases ###################### 
-print(model.predict("Which baking dish is best to bake a banana bread ?"))
+print(model.predict("Which baking dish is best to bake a banana bread ?")) ##   (('__label__baking',), array([0.07014001]))
 output23 = model.predict("Why not put knives in the dishwasher??", k=5)         ## returns top 5 labels
 print(output23)
 ############# use cases ######################

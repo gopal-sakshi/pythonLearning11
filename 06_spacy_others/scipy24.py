@@ -1,6 +1,8 @@
 import scipy.linalg
 import numpy as np
 
+### blas ===> basic linear algebra subprograms
+
 def blas(name, ndarray):
     arr = scipy.linalg.get_blas_funcs((name,), (ndarray,), dtype=ndarray.dtype)[0]
     return arr
