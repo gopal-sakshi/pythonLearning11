@@ -24,3 +24,5 @@ dill        ###
 aiohttp
 asyncio
 async_timeout
+
+boto3
