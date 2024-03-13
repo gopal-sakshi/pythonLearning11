@@ -20,3 +20,7 @@ vaderSentiment
 fasttext
 
 dill        ### 
+
+aiohttp
+asyncio
+async_timeout

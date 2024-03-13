@@ -1,30 +1,19 @@
-spacy
+### NL related
+
+`spacy`
 - library for advanced Natural Language Processing (NLP) in Python
 
-sanic
-- python 3.8+ web server and web framework that’s written to go fast. 
-- allows the usage of the async/await syntax
-    which makes your code non-blocking and speedy.
-- fastest frameworks
-    https://web-frameworks-benchmark.netlify.app/result
 
-scipy
+`scipy`
 - SciPy (pronounced “Sigh Pie”)
 - open source software for maths, science, engg
 - modules for statistics, optimization, integration, linear algebra, Fourier transforms, signal/image processing
 
-sklearn (deprecated) use scikit-learn
+`sklearn` (deprecated) use `scikit-learn`
 - python module for machine learning built on top of SciPy 
 
-gensim
+`gensim`
 - python library for topic modelling, document indexing, similarity retrieval
 
-nltk (nl tool kit)
+`nltk` (nl tool kit)
 - python package for natural language processing
-
-aiohttp
-
-xlrd
-
-inflect
-
