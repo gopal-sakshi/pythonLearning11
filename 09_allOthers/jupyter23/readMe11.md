@@ -7,7 +7,9 @@ jupyter config file
 
 jupyter notebook --generate-config
     Writing default config to: /home/gopalakrishnas/.jupyter/jupyter_notebook_config.py
-    Edit this file
+    Edit this file ---> add this line
+    c.FileCheckpoints.checkpoint_dir = '/home/gopalakrishnas/.jupyter/checkpoints23'
+
 <!-- ----------------------------------->
 `Notebooks`
 - integrates code & its output into a single document
