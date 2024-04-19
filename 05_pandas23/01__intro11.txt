@@ -1,0 +1,8 @@
+Pandas
+    https://pandas.pydata.org/docs/user_guide/10min.html
+
+Pandas provides two types of classes for handling data
+- Series    - 1d array holding data of any type  
+- DataFrame - 2d array that holds data like 2d array (or) table with rows/columns
+
+
