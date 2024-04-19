@@ -10,6 +10,10 @@ jupyter notebook --generate-config
     Edit this file ---> add this line
     c.FileCheckpoints.checkpoint_dir = '/home/gopalakrishnas/.jupyter/checkpoints23'
 
+
+RUNNING
+`jupyter notebook --port 18888 --no-browser`
+
 <!-- ----------------------------------->
 `Notebooks`
 - integrates code & its output into a single document
