@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('pandas23/06_pulseData.csv')
+df = pd.read_csv('05_pandas23/06_pulseData.csv')
 # print(df)
 # print(df.columns)
 

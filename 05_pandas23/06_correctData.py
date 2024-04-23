@@ -6,7 +6,7 @@ import pandas as pd
     empty cells ("Date" in row 22, "Calories" in row 18 & 28).
     wrong format ("Date" in row 26)
 '''
-df = pd.read_csv('pandas23/06_pulseData.csv')
+df = pd.read_csv('05_pandas23/06_pulseData.csv')
 # new_df1 = df.dropna()               # returns a new DataFrame, not change the original.
 # print(new_df1.to_string())
 
