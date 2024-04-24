@@ -65,3 +65,5 @@ if __name__ == '__main__':
     every time sanic server is closed, it prints goodbye message
     this is the file path ---> /lib/python3.12/site-packages/sanic/server/goodbye.py
 '''
+
+# python -B sanic23.py          ### it seems it doesnt generate bytecode... need to check
