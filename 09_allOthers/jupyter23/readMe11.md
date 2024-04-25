@@ -13,7 +13,7 @@ jupyter notebook --generate-config
 
 RUNNING
 `jupyter notebook --port 18888 --no-browser`
-
+`jupyter lab --port 18888 --no-browser`
 <!-- ----------------------------------->
 `Notebooks`
 - integrates code & its output into a single document
