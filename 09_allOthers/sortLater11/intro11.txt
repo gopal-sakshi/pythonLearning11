@@ -1,0 +1,4 @@
+all the models go and sit in ====> /home/tapasya/work/nlu-data/models/ directory
+there are ~ 520 folders ===> each folder is one project
+project_cc1aae7a-7fdc-44e6-9d38-733276f8c42c/ ====> is one such project
+inside that project_cc1aa... folder, we have 3 models @ 3 different timestamps
