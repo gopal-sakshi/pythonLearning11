@@ -1,0 +1,24 @@
+
+
+
+Tokenization
+Stemming
+    run, runs, running, ran, runner
+    stemming = maps the word to its stem (the base form)
+    use either of 3 algorithms - porter, lancaster, snowball
+    
+Lemmatization
+POS tagging (Part Of Speech tagging)
+
+text classification
+text similarity & clustering
+word embeddings
+======================================================================
+https://www.projectpro.io/article/nltk/846
+https://www.nltk.org/data.html
+https://stackoverflow.com/questions/22211525/how-do-i-download-nltk-data
+https://stackoverflow.com/questions/41610543/corpora-stopwords-not-found-when-import-nltk-library
+https://realpython.com/nltk-nlp-python/
+https://www.nltk.org/api/nltk.tokenize.api.html
+
+======================================================================
