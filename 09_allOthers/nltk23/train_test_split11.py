@@ -19,3 +19,4 @@ print("y_test =====> ", y_test)
 
 
 # https://www.geeksforgeeks.org/how-to-split-the-dataset-with-scikit-learns-train_test_split-function/
+# https://builtin.com/data-science/train-test-split
