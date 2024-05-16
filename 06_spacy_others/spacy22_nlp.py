@@ -1,8 +1,11 @@
 
+# https://github.com/explosion/spacy-course/blob/master/chapters/en/slides/chapter1_01_introduction-to-spacy.md
+
 import spacy
 import numpy as np
 
 nlp11 = spacy.load('en_core_web_md')        ## use "en_core_web_lg" for more accurate results
+# nlp11 = spacy.load('en_core_web_lg')        ## use "en_core_web_lg" for more accurate results
 print("length of nlp11 ====> ", len(nlp11.vocab))
 word = nlp11.vocab['night']
 print("word ====> ", word)

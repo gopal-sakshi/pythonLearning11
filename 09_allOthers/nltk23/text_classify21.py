@@ -7,6 +7,7 @@ import pandas as pd
 df_dict = { 'text': [], 'label': [] }
 
 for fileid in movie_reviews.fileids(categories='pos'):
+    print("fileid ===> ", fileid)
     df_dict['text'].append(list(movie_reviews.words(fileid)))
     df_dict['label'].append(1)
 
