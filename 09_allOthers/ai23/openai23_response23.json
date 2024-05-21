@@ -1,0 +1,25 @@
+{
+    "id": "chatcmpl-9RJ8xcDei376YWlChsmRgXmfvTnaY",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "The home ground of Real Madrid is the Santiago Bernabeu Stadium, located in Madrid, Spain.",
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1716295471,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 20,
+        "prompt_tokens": 14,
+        "total_tokens": 34
+    }
+}
