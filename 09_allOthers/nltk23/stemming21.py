@@ -15,8 +15,7 @@ s2 = '''luka modric is a footballer, he plays football as a professional. he run
 
 s3 = '''Programmers program with programming languages'''
 
-tokenized_words = word_tokenize(s3)
-
-stemmed = [PorterStemmer().stem(w) for w in tokenized_words]
+tokenized_words     = word_tokenize(s3)
+stemmed             = [PorterStemmer().stem(w) for w in tokenized_words]
 print("tokenized ====> ", tokenized_words)
 print("stemmed ====> ", stemmed)

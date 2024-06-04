@@ -8,6 +8,10 @@ Stemming
     use either of 3 algorithms - porter, lancaster, snowball
     
 Lemmatization
+    while stemming removes common suffixes from the end of word tokens, 
+    lemmatization ensures the output word is an existing normalized form of the word that can be found in the dictionary.
+
+
 POS tagging (Part Of Speech tagging)
 
 text classification
