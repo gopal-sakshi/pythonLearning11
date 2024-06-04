@@ -5,7 +5,7 @@
 
 
 ### for python
-# python -m pip install boto3
+# python3 -m pip install boto3
 
 
 import boto3
@@ -21,7 +21,10 @@ import sys
 
 
 #### using custom aws profile ############
-session = boto3.Session(profile_name='ped_aws23')       ### you know what profile name to give
+
+# aws configure list-profiles
+
+session = boto3.Session(profile_name='ped_aws')       ### you know what profile name to give
 ped23 = session.client('s3')
 response = ped23.list_buckets()
 for bucket23 in response['Buckets']:
