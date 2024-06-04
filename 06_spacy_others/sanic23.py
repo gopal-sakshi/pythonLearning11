@@ -25,9 +25,11 @@ async def post23(request):
     print("manager23 ====> ", request.json['manager'])
     return json({"info": "edo oka response"})
 
+
 @app.get("/get23")
 async def get233(request):
     print("params ===> ", request.args)
+    # https://sanic.dev/en/guide/basics/request.html#parsing-the-query-string
     print("query params ===> ", request.query_args)
     return json({ "info": "idi query params kosam" })
 
