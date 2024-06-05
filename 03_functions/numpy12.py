@@ -1,11 +1,10 @@
 import numpy as np
 a11 = np.arange(6)
 a12 = a11[np.newaxis, :]
-print(a12.shape)
+print("what is a12.shape23 ===> ", a12.shape)
 
 a13 = np.array([1, 2, 3, 4, 5, 6])
-
-print('program finished23')
+print("what is a13 ====> ", a13)
 
 '''
 pip install numpy (or)

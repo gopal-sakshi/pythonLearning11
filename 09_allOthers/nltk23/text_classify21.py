@@ -17,6 +17,7 @@ for fileid in movie_reviews.fileids(categories='neg'):
 
 df = pd.DataFrame(df_dict)
 df.to_csv('09_allOthers/nltk23/text_classify21_reviews.csv')          ## save the "movie_reviews" dataframe as csv
+### total 2000 reviews ---> 1000 positive, 1000 negative
 
 print("heads_without_processing ===> ", df.head())
     # 0  [films, adapted, from, comic, books, have, had...      1
