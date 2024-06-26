@@ -20,6 +20,7 @@ word embeddings
 ======================================================================
 https://www.projectpro.io/article/nltk/846
 https://www.nltk.org/data.html
+https://www.nltk.org/book/ch06.html
 https://stackoverflow.com/questions/22211525/how-do-i-download-nltk-data
 https://stackoverflow.com/questions/41610543/corpora-stopwords-not-found-when-import-nltk-library
 https://realpython.com/nltk-nlp-python/
