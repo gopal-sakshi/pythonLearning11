@@ -58,3 +58,8 @@ if __name__ == "__main__":
     server = HTTPServer(("0.0.0.0", port23), WebRequestHandler)
     print("simple http.server listening on port ===> ", port23)
     server.serve_forever()
+
+
+#### how to run ==========> python3 -B 06_spacy_others/sanic_python_http_server.py
+
+
